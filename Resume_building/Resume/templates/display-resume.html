@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Page</title>
+    <style>
+        body {
+            width: var(--page-width, 100%);
+            height: var(--page-height, auto);
+        }
+    </style>
+</head>
+<body>
+    <h1>Your Resume has been Created Successfully!</h1>
+    <h1>Resume</h1>
+    <h2>{{ resume.name }}</h2>
+    <p>Email: {{ resume.email }}</p>
+    <p>Phone Number: {{ resume.phone_number }}</p>
+    <p>Address: {{ resume.address }}</p>
+    <p>Summary: {{ resume.summary }}</p>
+    <p>Education: {{ resume.education }}</p>
+    <p>Skills: {{ resume.skills }}</p>
+    <p>Experience: {{ resume.experience }}</p>
+    <p>Certifications: {{ resume.certifications }}</p>
+    <p>Projects: {{ resume.projects }}</p>
+    <p>Languages: {{ resume.languages }}</p>
+    <p>Hobbies: {{ resume.hobbies }}</p>
+
+</body>
+</html>
+
